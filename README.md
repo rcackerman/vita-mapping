@@ -34,11 +34,27 @@ pip install geopandas Fiona folium Shapely rtree
 pip install census
 ``` 
 
-## Data Sources
+#### Running the code
+The repo is split into 2 workflows, based mainly on which map the data are being used for. First, for [VITA Sites vs eligibility](https://public.tableau.com/views/VITAsites/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link), we use the files:
+* `1. get ACS data.ipynb`* and
+* `VITA sites matched to county.ipynb`.
 
-* 2019 zip code tabulation area shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2019.html
-* 2019 ACS detailed datasets: https://data.census.gov/cedsci/all?t=Income%20%28Households,%20Families,%20Individuals%29&g=0100000US%248600000&d=ACS%205-Year%20Estimates%20Detailed%20Tables
-  * Specifically, "Household Income in the Past 12 Months (In 2020 Inflation-Adjusted Dollars)" 5 year estimate data tables at the 5-digit zip code tabulation area (ZCTA) summary level (https://data.census.gov/cedsci/table?t=Income%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings&g=0100000US%248600000&d=ACS%205-Year%20Estimates%20Detailed%20Tables&tid=ACSDT5Y2020.B19001).
+The other workflow is for [VITA sites vs MFT use]():
 
-* 2018 ZCTA shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
-* 2018 ACS household income: https://data.census.gov/cedsci/table?t=Income%20%28Households,%20Families,%20Individuals%29%3AIncome%20and%20Earnings&g=0100000US%248600000&d=ACS%205-Year%20Estimates%20Detailed%20Tables&tid=ACSDT5Y2018.B19001
+1. `1. get ACS data.ipynb`*
+2. `2. MFT Processing.ipynb`
+3. `3. Merging MFT to ACS relational file.ipynb`
+4.  and `4. MFT at the county level.ipynb`
+
+\* You only need to run this file once, even if you're rebuilding both maps.
+
+## Data sources used
+
+* 2019 county shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2019.html
+* 2019 ACS detailed datasets: https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Detailed%20Tables
+  * Specifically, "Household Income in the Past 12 Months (In 2020 Inflation-Adjusted Dollars)" 5 year estimate data tables at the county summary level. https://data.census.gov/cedsci/table?t=Income%20%28Households,%20Families,%20Individuals%29&g=0100000US%240500000&d=ACS%205-Year%20Estimates%20Detailed%20Tables&tid=ACSDT5Y2019.B19001
+
+## Data sources for further work
+While doing this project, we also found [income tax return data from the IRS](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-return-form-1040-statistics), including VITA returns.
+
+* 
