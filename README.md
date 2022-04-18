@@ -51,8 +51,8 @@ The other workflow is for [VITA sites vs MFT use]():
 ## Data sources used
 
 * 2019 county shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2019.html
-* 2019 ACS detailed datasets: https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Detailed%20Tables
-  * Specifically, "Household Income in the Past 12 Months (In 2020 Inflation-Adjusted Dollars)" 5 year estimate data tables at the county summary level. https://data.census.gov/cedsci/table?t=Income%20%28Households,%20Families,%20Individuals%29&g=0100000US%240500000&d=ACS%205-Year%20Estimates%20Detailed%20Tables&tid=ACSDT5Y2019.B19001
+* 2019 ACS detailed datasets: https://www.census.gov/data/developers/data-sets/acs-5year.2019.html
+  * Specifically, "Household Income in the Past 12 Months (In 2020 Inflation-Adjusted Dollars)" [(group B19001)](https://api.census.gov/data/2019/acs/acs5/groups/B19001.html) 5 year estimate data tables at the county summary level.
 
 ## Data sources for further work
 While doing this project, we also found [income tax return data from the IRS](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-return-form-1040-statistics), including VITA returns.
