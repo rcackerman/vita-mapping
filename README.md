@@ -5,6 +5,35 @@ This repository will contain all data used for the VITA mapping project. It also
 
 The final product will be mapped on Tableau Public (link tbd).
 
+## Installation
+
+#### Census API key
+First, set up your [Census API key](https://api.census.gov/data/key_signup.html). We use the API key by saving it to a `.env` file.
+
+Save the .env-sample file to .env.
+```
+mv .env-sample .env
+```
+
+Then replace the text `<YOUR API KEY HERE>` in .env-sample with the API key you just got from [the Census](https://api.census.gov/data/key_signup.html).
+
+#### Python & Jupyter setup
+You'll need [python 3](https://www.python.org/) and [Jupyter](https://jupyter.org/) installed.
+
+With homebrew:
+```
+brew install python jupyter
+```
+
+Then install the necessary python libraries:
+
+```
+pip install python-dotenv
+pip install pandas
+pip install geopandas Fiona folium Shapely rtree
+pip install census
+``` 
+
 ## Data Sources
 
 * 2019 zip code tabulation area shapefiles: https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2019.html
