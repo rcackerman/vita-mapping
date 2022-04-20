@@ -57,6 +57,7 @@ jupyter notebook
 
 You should be ready to run!
 
+#### Repo organization
 The repo is split into 2 workflows, based mainly on which map the data are being used for. First, for [VITA Sites vs eligibility](https://public.tableau.com/views/VITAsites/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link), we use the files:
 * `1. get ACS data.ipynb`* and
 * `VITA sites matched to county.ipynb`.
