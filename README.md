@@ -3,7 +3,12 @@
 ## Repository Purpose
 This repository will contain all data used for the VITA mapping project. It also contains Jupyter Notebooks that cover cleaning and prepping.
 
-The final product will be mapped on Tableau Public (link tbd).
+Maps are on Tableau Public:
+
+* [VITA sites](https://public.tableau.com/views/VITAsitedensity/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+* [Counties with MyFreeTaxes e-filed returns](https://public.tableau.com/views/MFTreturns-2019/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+* [VITA sites vs counties where MyFreeTaxes returns were filed](https://public.tableau.com/app/profile/rebecca.ackerman3047/viz/MFTe-returnlocationsvsVITAsites/VITALocationsComparedwithCountieswithMyFreeTaxesReturns)
+* [VITA sites vs income eligibility](https://public.tableau.com/views/VITASiteLocationsComparedwithAnnualHouseholdIncome/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Installation
 
@@ -39,7 +44,7 @@ The repo is split into 2 workflows, based mainly on which map the data are being
 * `1. get ACS data.ipynb`* and
 * `VITA sites matched to county.ipynb`.
 
-The other workflow is for [VITA sites vs MFT use]():
+The other workflow is for [VITA sites vs MFT use](https://public.tableau.com/views/MFTe-returnlocationsvsVITAsites/VITALocationsComparedwithCountieswithMyFreeTaxesReturns?:language=en-US&:display_count=n&:origin=viz_share_link):
 
 1. `1. get ACS data.ipynb`*
 2. `2. MFT Processing.ipynb`
@@ -56,5 +61,3 @@ The other workflow is for [VITA sites vs MFT use]():
 
 ## Data sources for further work
 While doing this project, we also found [income tax return data from the IRS](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-return-form-1040-statistics), including VITA returns.
-
-* 
