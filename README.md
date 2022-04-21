@@ -7,7 +7,7 @@ Maps are on Tableau Public:
 
 * [VITA sites](https://public.tableau.com/views/VITAsitedensity/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
 * [Counties with MyFreeTaxes e-filed returns](https://public.tableau.com/views/MFTreturns-2019/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
-* [VITA sites vs counties where MyFreeTaxes returns were filed](https://public.tableau.com/app/profile/rebecca.ackerman3047/viz/MFTe-returnlocationsvsVITAsites/VITALocationsComparedwithCountieswithMyFreeTaxesReturns)
+* [VITA sites vs counties where MyFreeTaxes returns were filed](https://public.tableau.com/views/VITASiteLocationsComparedwithAnnualHouseholdIncome/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 * [VITA sites vs income eligibility](https://public.tableau.com/views/VITASiteLocationsComparedwithAnnualHouseholdIncome/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Running Jupyter Notebooks
@@ -62,7 +62,7 @@ The repo is split into 2 workflows, based mainly on which map the data are being
 * `1. get ACS data.ipynb`* and
 * `VITA sites matched to county.ipynb`.
 
-The other workflow is for [VITA sites vs MFT use](https://public.tableau.com/views/MFTe-returnlocationsvsVITAsites/VITALocationsComparedwithCountieswithMyFreeTaxesReturns?:language=en-US&:display_count=n&:origin=viz_share_link):
+The other workflow is for [VITA sites vs MFT use](https://public.tableau.com/views/VITASiteLocationsComparedwithAnnualHouseholdIncome/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link):
 
 1. `1. get ACS data.ipynb`*
 2. `2. MFT Processing.ipynb`
