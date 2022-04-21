@@ -62,12 +62,17 @@ The repo is split into 2 workflows, based mainly on which map the data are being
 * `1. get ACS data.ipynb`* and
 * `VITA sites matched to county.ipynb`.
 
+This will create two files, `./data/output/acs_household_income_county.csv` and `vita_sites_by_county.csv`.
+
 The other workflow is for [VITA sites vs MFT use](https://public.tableau.com/views/VITASiteLocationsComparedwithAnnualHouseholdIncome/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link):
 
 1. `1. get ACS data.ipynb`*
 2. `2. MFT Processing.ipynb`
 3. `3. Merging MFT to ACS relational file.ipynb`
-4.  and `4. MFT at the county level.ipynb`
+4.  `4. MFT at the county level.ipynb`
+5.  and `VITA + MFT.ipynb` 
+
+This will create the file `./data/output/mft_vita_merged.csv`.
 
 \* You only need to run this file once, even if you're rebuilding both maps.
 
